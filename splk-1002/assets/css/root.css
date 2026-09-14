@@ -1,0 +1,98 @@
+:root {
+  --bg0: #05080F;
+  --bg1: #0A1120;
+  --cream: #FAF7EC;
+  --ink: #0B0E14;
+  --amber: #B06CFF;
+  --amber-soft: rgba(176, 108, 255, .14);
+  --steel: rgba(148, 170, 210, .16);
+  --steel-soft: rgba(148, 170, 210, .07);
+  --text: #E3E9F4;
+  --mut: #7E8AA3;
+  --mono: 'IBM Plex Mono', monospace;
+  --disp: 'Chakra Petch', sans-serif;
+  --body: 'Archivo', sans-serif;
+
+  
+  --bg-primary:    #05080F;
+  --bg-secondary:  #0A1120;
+  --bg-tertiary:   #0D1628;
+  --bg-card:       #101830;
+  --bg-hover:      #141E38;
+  --bg-active:     #1A2848;
+
+  --border-subtle:  rgba(148, 170, 210, .10);
+  --border-default: rgba(148, 170, 210, .18);
+  --border-accent:  rgba(176, 108, 255, .55);
+
+  --text-primary:   #E3E9F4;
+  --text-secondary: #A8B4CC;
+  --text-muted:     #7E8AA3;
+  --text-dim:       #3A4560;
+
+  
+  --accent-cyan:       #B06CFF;
+  --accent-cyan-dim:   #8A44E0;
+  --accent-green:      #7EB8FF;
+  --accent-green-dim:  #5090D8;
+  --accent-orange:     #FF9F6B;
+  --accent-orange-dim: #D97040;
+  --accent-red:        #FF4F72;
+  --accent-red-dim:    #D82E50;
+  --accent-purple:     #D08AFF;
+  --accent-purple-dim: #A855F7;
+  --accent-yellow:     #FFD770;
+  --accent-blue:       #7EB8FF;
+
+  --splunk-orange:     #B06CFF;
+  --splunk-orange-dim: #8A44E0;
+
+  
+  --cmd-keyword:  #FFD770;
+  --cmd-pipe:     #B06CFF;
+  --cmd-field:    #D08AFF;
+  --cmd-value:    #FF9FC8;
+  --cmd-function: #C8A0FF;
+  --cmd-string:   #FFD770;
+  --cmd-comment:  #3A4560;
+
+  --font-mono: 'IBM Plex Mono', 'JetBrains Mono', monospace;
+  --font-ui:   'Archivo', 'Space Grotesk', sans-serif;
+  --font-disp: 'Chakra Petch', sans-serif;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+
+  --shadow-glow-cyan:   0 0 24px rgba(176, 108, 255, .18);
+  --shadow-glow-green:  0 0 20px rgba(126, 184, 255, .12);
+  --shadow-glow-orange: 0 0 20px rgba(176, 108, 255, .22);
+  --shadow-card:        0 4px 32px rgba(0, 0, 0, .55);
+
+  --transition:      0.18s ease;
+  --transition-slow: 0.38s ease;
+
+  
+  --dark-primary-20: rgba(176, 108, 255, .20);
+  --dark-primary-25: rgba(176, 108, 255, .25);
+  --dark-primary-30: rgba(176, 108, 255, .30);
+  --dark-primary-40: rgba(176, 108, 255, .40);
+  --dark-primary-50: rgba(176, 108, 255, .50);
+  --dark-primary-60: rgba(176, 108, 255, .60);
+  --dark-primary-70: rgba(176, 108, 255, .70);
+
+  --sidebar-dark-bg:   rgba(5, 8, 15, .96);
+  --topbar-dark-bg:    rgba(5, 8, 15, .96);
+
+  
+  --success-primary:  #4ADE80;
+  --error-primary:    #FF4F72;
+  --warning-primary:  #FFD770;
+  --info-primary:     #7EB8FF;
+
+  --success-border:  rgba(74, 222, 128, .28);
+  --error-border:    rgba(255, 79, 114, .28);
+  --warning-border:  rgba(255, 215, 112, .28);
+  --info-border:     rgba(126, 184, 255, .28);
+}

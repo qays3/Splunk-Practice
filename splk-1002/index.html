@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Splunk Quick Simulation qays9</title>
+  <meta name="description" content="Interactive Splunk SPL simulation tool by qays9.">
+  <link rel="icon" href="assets/img/logo/qays9.png" type="image/png">
+  <link rel="stylesheet" href="assets/css/root.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <a class="nav-brand" href="./">
+      <img class="nav-logo" src="assets/img/logo/qays9.png" alt="qays9" onerror="this.style.display='none'">
+      <span class="nav-title">splunk<span>&gt;</span> quick sim</span>
+    </a>
+    <div class="nav-links">
+      <a class="nav-link active" href="./">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="16 18 22 12 16 6"/>
+          <polyline points="8 6 2 12 8 18"/>
+        </svg>
+        Simulation
+      </a>
+      <a class="nav-link" href="../splk-1003/" target="_blank" rel="noopener">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="2" y="3" width="20" height="14" rx="2"/>
+          <path d="M8 21h8M12 17v4"/>
+        </svg>
+        Admin Ref
+      </a>
+      <a class="nav-download-btn" href="./files/PowerUser.zip" download>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+          <polyline points="7 10 12 15 17 10"/>
+          <line x1="12" y1="15" x2="12" y2="3"/>
+        </svg>
+        <span>Download Material</span>
+      </a>
+    </div>
+  </nav>
+
+  <div class="page-wrapper">
+
+    <div class="hero">
+      <div class="hero-left">
+        <div class="hero-eyebrow">
+          <svg width="7" height="7" viewBox="0 0 8 8" fill="currentColor"><circle cx="4" cy="4" r="4"/></svg>
+          by &middot; qays9
+        </div>
+        <h1>Splunk <em>Quick</em> Simulation</h1>
+        <p class="hero-sub">Click any SPL command to explore syntax, options, exam tips, and simulate queries.</p>
+      </div>
+      <div class="hero-actions">
+        <a class="download-btn" href="./files/PowerUser.zip" download>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+            <polyline points="7 10 12 15 17 10"/>
+            <line x1="12" y1="15" x2="12" y2="3"/>
+          </svg>
+          Download Material
+        </a>
+      </div>
+    </div>
+
+    <div class="stats-bar" id="stats-bar"></div>
+
+    <div class="main-layout">
+      <div class="sidebar" id="sidebar"></div>
+      <div class="content-area" id="content-area">
+        <div id="home-grid-wrap" style="padding:20px">
+          <div class="live-feed">
+            <div class="live-feed-header">
+              <div class="live-indicator">
+                <div class="live-dot"></div>
+                LIVE &middot; index=web_logs
+              </div>
+              <span style="font-size:10px;color:var(--text-dim);font-family:var(--font-mono)">qayssarayra.com</span>
+            </div>
+            <div class="live-feed-body" id="live-feed-body"></div>
+          </div>
+          <div id="home-grid"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    qays9 &middot;
+    <a href="https://qayssarayra.com" target="_blank" rel="noopener">qayssarayra.com</a>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/sim.js"></script>
+  <script src="assets/js/init.js"></script>
+</body>
+</html>
