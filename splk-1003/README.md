@@ -90,7 +90,6 @@ Search time context and index time context resolve differently, and both are cov
 flowchart TD
     R["splk-1003/"] --> I["index.html"]
     R --> A["assets/"]
-    R --> F["files/EnterpriseAdmin.zip"]
     A --> CSS["css/root.css<br/>css/style.css"]
     A --> JS["js/"]
     A --> IMG["img/"]
@@ -104,7 +103,6 @@ flowchart TD
 | `assets/js/data.js` | Topic knowledge base: descriptions, inline SVG topology per topic, stanzas, options, exam tips, presets |
 | `assets/js/sim.js` | Config syntax highlighter, validator, full architecture diagram builder, sidebar, live `splunkd.log` feed |
 | `assets/js/init.js` | Builds the header stats bar from the topic data |
-| `files/EnterpriseAdmin.zip` | Downloadable study pack: course notes and a lab setup guide |
 
 ## Running It
 
@@ -118,9 +116,13 @@ python3 -m http.server 8080
 
 Then open `http://localhost:8080`. Opening `index.html` directly from disk also works.
 
-## Practice Material
+## Course Notes
 
-The **Download Material** button serves `files/EnterpriseAdmin.zip`, containing the Enterprise Admin course notes and `Lab/Setup.md`, a walkthrough for building the practice deployment on real hosts.
+The **Course Notes** button opens the full written Enterprise Admin course, published at:
+
+https://qayssarayra.com/vault/post/splunk-enterprise-admin-course
+
+The notes run from architecture through licensing and detection engineering, and every stanza in them can be pasted into the config editor here.
 
 ## Related
 

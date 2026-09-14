@@ -88,17 +88,19 @@ flowchart TD
     B --> B1["index.html"]
     B --> B2["assets/js/data.js<br/>assets/js/sim.js<br/>assets/js/init.js"]
     B --> B3["assets/css/"]
-    B --> B4["files/PowerUser.zip"]
     C --> C1["index.html"]
     C --> C2["assets/js/data.js<br/>assets/js/sim.js<br/>assets/js/init.js"]
     C --> C3["assets/css/"]
-    C --> C4["files/EnterpriseAdmin.zip"]
 ```
 
-| Path | Contents |
+## Course Notes
+
+The written courses are published online rather than shipped as archives. Each project links to its own from the **Course Notes** button in the navigation bar.
+
+| Project | Course notes |
 | :--- | :--- |
-| `splk-1002/files/PowerUser.zip` | Power User course notes in Markdown, two quick reference PDFs, domain diagram |
-| `splk-1003/files/EnterpriseAdmin.zip` | Enterprise Admin course notes and `Lab/Setup.md`, a walkthrough for building the practice deployment on real hosts |
+| `splk-1002` | https://qayssarayra.com/vault/post/splunk-power-user-course |
+| `splk-1003` | https://qayssarayra.com/vault/post/splunk-enterprise-admin-course |
 
 Both projects link to each other from their navigation bar, so you can move between the SPL simulator and the architecture reference without leaving the browser.
 

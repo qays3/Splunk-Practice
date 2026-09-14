@@ -65,7 +65,6 @@ flowchart TD
     R["splk-1002/"] --> I["index.html"]
     R --> H[".htaccess<br/>clean URL rewrites"]
     R --> A["assets/"]
-    R --> F["files/PowerUser.zip"]
     A --> CSS["css/root.css<br/>css/style.css"]
     A --> JS["js/"]
     A --> IMG["img/logo/"]
@@ -79,7 +78,6 @@ flowchart TD
 | `assets/js/data.js` | Synthetic event set, category definitions, and the full command knowledge base |
 | `assets/js/sim.js` | Tokenizer, base search filter, executor dispatch, table renderer, trace renderer, live feed |
 | `assets/js/init.js` | Builds the header stats bar from the data file |
-| `files/PowerUser.zip` | Downloadable study pack: course notes, cheat sheets, architecture diagram |
 | `.htaccess` | Extensionless URL routing for Apache hosting |
 
 ## Running It
@@ -94,9 +92,13 @@ python3 -m http.server 8080
 
 Then open `http://localhost:8080`. Opening `index.html` directly from disk also works.
 
-## Practice Material
+## Course Notes
 
-The **Download Material** button serves `files/PowerUser.zip`, which contains the Power User course notes in Markdown, two quick reference PDFs, and a domain diagram.
+The **Course Notes** button opens the full written Power User course, published at:
+
+https://qayssarayra.com/vault/post/splunk-power-user-course
+
+The notes are chaptered by exam domain and every SPL example in them runs in this simulator.
 
 ## Related
 
